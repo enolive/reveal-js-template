@@ -82,6 +82,11 @@ let result = list.map(x => x + 1); // oder eine "addOne" Funktion nehmen
 console.log(result)
 ```
 
+```haskell
+greet :: String -> String
+greet name = "Hello, " ++ name ++ "!"
+```
+
 <--->
 
 ```csharp
