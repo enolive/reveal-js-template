@@ -321,8 +321,11 @@ body {
 /*********************************************
  * OVERVIEW
  *********************************************/
-.reveal.overview .slides section:hover,
-.reveal.overview .slides section.present {
+.reveal.overview .slides section:hover {
     outline: 10px solid #94d54a;
+    outline-offset: 10px;
+}
+.reveal.overview .slides section.present {
+    outline: 10px solid #0ea893;
     outline-offset: 10px;
 }
