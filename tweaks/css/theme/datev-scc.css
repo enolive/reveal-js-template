@@ -18,7 +18,6 @@ html * {
  *********************************************/
 body {
     background: black;
-    background-color: black;
 }
 
 .reveal {
@@ -62,7 +61,6 @@ body {
     line-height: 1.2;
     letter-spacing: normal;
     text-transform: uppercase;
-    text-shadow: none;
     word-wrap: break-word;
 }
 
@@ -80,10 +78,6 @@ body {
 
 .reveal h4 {
     font-size: 1em;
-}
-
-.reveal h1 {
-    text-shadow: none;
 }
 
 /*********************************************
@@ -159,7 +153,7 @@ body {
     padding: 5px;
     font-style: italic;
     background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 
 .reveal blockquote p:first-child,
@@ -181,12 +175,14 @@ body {
     font-family: monospace;
     line-height: 1.2em;
     word-wrap: break-word;
+    text-shadow: none;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
 }
 
 .reveal code {
     font-family: "Fira Code", monospace;
     text-transform: none;
+    text-shadow: none;
 }
 
 .reveal pre code {
@@ -274,7 +270,7 @@ body {
  * IMAGES
  *********************************************/
 .reveal section img {
-    margin: 15px 0px;
+    margin: 15px 0;
     background: rgba(255, 255, 255, 0.12);
     border: 4px solid #0c8b7a;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);

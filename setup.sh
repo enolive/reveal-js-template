@@ -10,6 +10,9 @@ wget ${REVEAL_SRC}
 ## extract
 tar xvzf ${REVEAL_VERSION}.tar.gz
 
+## remove any previously existing folder
+rm -rf slides
+
 ## rename folder
 mv reveal.js-${REVEAL_VERSION} slides
 

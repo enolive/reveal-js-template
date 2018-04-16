@@ -2,9 +2,10 @@
 
 ## Subtitle
 
-Homer Simpson
-
-1.1.2019
+- <i class="fa fa-user"></i>&nbsp;Christoph Welcz
+- <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;01.01.1900
+- <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;[@ChristophWelcz](https://twitter.com/ChristophWelcz)
+- <i class="fa fa-github" aria-hidden="true"></i>&nbsp;[github.com/enolive/some-project](https://github.com/enolive/some-project)
 
 <--->
 
@@ -148,14 +149,7 @@ p |> emailFor // josm@company.com
 
 <--->
 
-- <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;@yourtwitterhandle
-- <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;foo@bar.de
-- <i class="fa fa-github" aria-hidden="true"></i>&nbsp;yourproject.github.com
-- [Some Link](http://www.google.de)
-
-<--->
-
-<!-- .slide: data-background-image="resources/DATEV-SCC-Logo.png" data-background-size="cover" data-state="dimmed-less"-->
+<!-- .slide: class="outline" data-background-image="resources/DATEV-SCC-Logo.png" data-background-size="cover" data-state="dimmed-less"-->
 
 Using background images...
 
