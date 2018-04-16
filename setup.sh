@@ -23,13 +23,13 @@ rm ${REVEAL_VERSION}.tar.gz
 
 ## cleanup (optional)
 rm -rf \
-    $CURRENTDIR/slides/test \
-    $CURRENTDIR/slides/CONTRIBUTING.md \
-    $CURRENTDIR/slides/demo* \
-    $CURRENTDIR/slides/.travis.yml
+    ${CURRENTDIR}/slides/test \
+    ${CURRENTDIR}/slides/CONTRIBUTING.md \
+    ${CURRENTDIR}/slides/demo* \
+    ${CURRENTDIR}/slides/.travis.yml
 
 ## inject tweaks
-cp -rf $CURRENTDIR/tweaks/* $CURRENTDIR/slides/
+cp -rf ${CURRENTDIR}/tweaks/* ${CURRENTDIR}/slides/
 
 ## create folder for code samples
-mkdir $CURRENTDIR/code
+mkdir ${CURRENTDIR}/code
