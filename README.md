@@ -37,7 +37,10 @@ Or use the minimal bash shell included with Git-for-windows. Or the Full-Linux S
 
 # Showcases
 
-- [x] Background images with markdown
-- [x] Change highlighting of code samples (step by step)
-- [x] slide customizations using `data-*` attributes in markdown
-- [x] company logo on each slide
+- Background images with markdown
+- Change highlighting of code samples (step by step)
+- slide customizations using `data-*` attributes in markdown.
+- company logo on each slide
+- Image manipulation using alt text styling
+- Usage of font awesome for some nice icons
+- Tag Cloud

@@ -50,6 +50,17 @@ bar
 
 <--->
 
+<section tagcloud large>
+This
+should 
+change
+with
+every
+reload
+</section>
+
+<--->
+
 ## Just an image
 
 ![funx-logo](resources/DATEV-SCC-Logo.png)
