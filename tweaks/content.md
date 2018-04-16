@@ -6,19 +6,19 @@ Homer Simpson
 
 1.1.2019
 
-x---
+<--->
 
 ## Second slide
 
 foo
 
-x--
+<-->
 
 ### Vertical Slide
 
 bar
 
-x---
+<--->
 
 <section tagcloud large>
     <span tagcloud-weight="16">Unit </span>
@@ -48,8 +48,13 @@ x---
     <span tagcloud-weight="12">Composition </span>
 <section>
 
-x---
+<--->
 
+## Just an image
+
+![Alt Text](resources/DATEV-SCC-Logo.png)
+
+<--->
 
 ```javascript
 let list = [1, 2, 3, 4, 5];
@@ -57,7 +62,7 @@ let result = list.map(x => x + 1); // oder eine "addOne" Funktion nehmen
 console.log(result)
 ```
 
-x---
+<--->
 
 ```csharp
 // expression
@@ -76,7 +81,7 @@ isBetweenFiveAndTen(7); // TRUE
 </code>
 </pre>
 
-x---
+<--->
 
 <pre>
 <code data-noescape data-trim class="lang-fsharp hljs">
@@ -105,13 +110,16 @@ p |> emailFor // josm@company.com
 </code>
 </pre>
 
-x---
+<--->
 
 - <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;@yourtwitterhandle
 - <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;foo@bar.de
+- <i class="fa fa-github" aria-hidden="true"></i>&nbsp;yourproject.github.com
+- [Some Link](http://www.google.de)
 
-x---
-<!-- .slide: data-background-image="resources/Softwerkskammer.png" data-background-size="cover" data-state="dimmed-less"-->
+<--->
+
+<!-- .slide: data-background-image="resources/DATEV-SCC-Logo.png" data-background-size="cover" data-state="dimmed-less"-->
 
 Using background images...
 
