@@ -18,9 +18,6 @@ mv reveal.js-${REVEAL_VERSION} slides
 ## remove downloaded file
 rm ${REVEAL_VERSION}.tar.gz
 
-## enable new git from scratch (but keep the .gitignore file)
-#rm -rf .git
-
 ## cleanup (optional)
 rm -rf \
     ${CURRENT_DIR}/slides/test \
@@ -30,6 +27,3 @@ rm -rf \
 
 ## inject tweaks
 cp -rf ${CURRENT_DIR}/tweaks/* ${CURRENT_DIR}/slides/
-
-## create folder for code samples
-mkdir ${CURRENT_DIR}/code
