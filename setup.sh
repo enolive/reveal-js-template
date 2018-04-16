@@ -19,7 +19,7 @@ mv reveal.js-${REVEAL_VERSION} slides
 rm ${REVEAL_VERSION}.tar.gz
 
 ## enable new git from scratch (but keep the .gitignore file)
-rm -rf .git
+#rm -rf .git
 
 ## cleanup (optional)
 rm -rf \
