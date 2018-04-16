@@ -2,8 +2,10 @@
 /* Code ------------------------------------------------ */
 
 /* Custom font for code samples: Fira Code ;-) */
+@import "../resources/fira-code-1.205/fira_code.css";
+
 .reveal code {
-  font-family: "Fira Code", "Lato", sans-serif;
+    font-family: "Fira Code", monospace;
 }
 
 /* Tweak size of text in pre (code) blocks */
