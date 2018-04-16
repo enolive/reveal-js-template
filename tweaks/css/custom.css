@@ -1,25 +1,6 @@
 
 /* Code ------------------------------------------------ */
 
-/* Custom font for code samples: Fira Code ;-) */
-@import "../resources/fira-code-1.205/fira_code.css";
-
-.reveal code {
-    font-family: "Fira Code", monospace;
-}
-
-/* Tweak size of text in pre (code) blocks */
-.reveal pre {
-    font-size: 0.49em; /* default value: 0.55em */
-    line-height: 1.2em;  /* default value: 1.2em */
-	display: inline-grid;
-}
-
-/* Increase area for code samples */
-.reveal pre code {
-    max-height: 700px;
-}
-
 /* Reveal.Js fragments in code: All personal styles must be "registered" here */
 .reveal .slides section .fragment.mycodemark,
 .reveal .slides section .fragment.my-semi-hide {
@@ -57,7 +38,7 @@
 }
 
 .reveal .slides .too-much-content {
-    font-size: 80%;
+    font-size: 70%;
 }
 
 /* Only for debugging */
