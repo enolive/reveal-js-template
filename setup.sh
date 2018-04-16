@@ -1,8 +1,6 @@
 #!/bin/sh
 
-## Current directory
-## http://stackoverflow.com/a/246128
-CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+CURRENT_DIR=$PWD
 
 ## Get reveal.js
 REVEAL_VERSION=3.6.0

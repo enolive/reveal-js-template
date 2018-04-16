@@ -1,10 +1,10 @@
-Template for using [revealjs](https://github.com/hakimel/reveal.js).
+Template for using [revealjs](https://github.com/hakimel/reveal.js)
+with a custom DATEV-SCC theme.
 
 # Idea
 
 - Clone this repo
 - Run the install script
-- It makes some opinionated changes (details will follow)
 - You have a clean new start for your presentation
 
 # Prerequisites
@@ -26,8 +26,8 @@ That's it!
 
 # Project structure
 
-- `slides`: the revealjs presentation
-- `code`: empty folder for code samples. Use this folder for live coding samples! If you don't do live coding, you can delete this folder.
+- `slides`: the revealjs presentation. Copy it somewhere to generate an own
+  git project.
 
 # And Windows?
 
