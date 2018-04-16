@@ -2,7 +2,7 @@
 
 ## Current directory
 ## http://stackoverflow.com/a/246128
-CURRENTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 ## Get reveal.js
 REVEAL_VERSION=3.6.0
@@ -23,13 +23,13 @@ rm ${REVEAL_VERSION}.tar.gz
 
 ## cleanup (optional)
 rm -rf \
-    ${CURRENTDIR}/slides/test \
-    ${CURRENTDIR}/slides/CONTRIBUTING.md \
-    ${CURRENTDIR}/slides/demo* \
-    ${CURRENTDIR}/slides/.travis.yml
+    ${CURRENT_DIR}/slides/test \
+    ${CURRENT_DIR}/slides/CONTRIBUTING.md \
+    ${CURRENT_DIR}/slides/demo* \
+    ${CURRENT_DIR}/slides/.travis.yml
 
 ## inject tweaks
-cp -rf ${CURRENTDIR}/tweaks/* ${CURRENTDIR}/slides/
+cp -rf ${CURRENT_DIR}/tweaks/* ${CURRENT_DIR}/slides/
 
 ## create folder for code samples
-mkdir ${CURRENTDIR}/code
+mkdir ${CURRENT_DIR}/code
